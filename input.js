@@ -18,6 +18,12 @@ const handleUserInput = function (key) {
   if (key === 's') {
     connection.write("Move: down");
   }
+  if (key === 'q') {
+    connection.write("Say: Snek");
+  }
+  if (key === 'e') {
+    connection.write("Say: Snak");
+  }
 }
 
 const setupInput = function(conn) {
