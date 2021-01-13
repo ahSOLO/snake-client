@@ -22,6 +22,9 @@ const handleUserInput = function (key) {
     connection.write("Say: Snek");
   }
   if (key === 'e') {
+    connection.write("Say: is");
+  }
+  if (key === 'r') {
     connection.write("Say: Snak");
   }
 }
